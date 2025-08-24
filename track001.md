@@ -85,3 +85,23 @@ fatal: unable to access 'https://github.com/newaccount/projectname.git/': The re
 - 항목: `git:https://github.com`
 - 사용자 이름: `sally03915`
 - 암호: GitHub 로그인 시 사용하는 비밀번호
+
+
+---
+
+## 🧪 실습 5: pull & push  [chapter002]
+
+### 실습 시나리오
+1. GitHub에서 track001.md 파일을 수정
+2. 로컬에서도 같은 파일을 수정 후 커밋
+```bash
+git pull origin main 
+```
+3. 실행 시 충돌 발생
+
+### 🛠️  pull
+```bash
+git pull origin master
+```
+
+
