@@ -95,13 +95,27 @@ fatal: unable to access 'https://github.com/newaccount/projectname.git/': The re
 1. GitHub에서 track001.md 파일을 수정
 2. 로컬에서도 같은 파일을 수정 후 커밋
 ```bash
-git pull origin main 
+git  add  track001.md
+git commit -m "chapter2-1.  track001.md"
+git pull origin master 
 ```
+
 3. 실행 시 충돌 발생
-
-### 🛠️  pull
 ```bash
-git pull origin master
+PS C:\◎stackventure_250825◎\test-local> git pull  origin master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 976 bytes | 19.00 KiB/s, done.
+From https://github.com/sally03915/stackventure_test_250825
+ * branch            master     -> FETCH_HEAD
+   d14869c..10d4b45  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+        track001.md
+Please commit your changes or stash them before you merge.
+Aborting
+Merge with strategy ort failed.
+PS C:\◎stackventure_250825◎\test-local>
 ```
-
 
