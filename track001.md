@@ -98,6 +98,18 @@ git  add  track001.md
 git commit -m "chapter2-1.  track001.md"
 git pull origin master 
 ```
-
-3. 실행 시 충돌 발생 
+3. 실행 시 충돌 발생 - 에러확인
+- 콘솔 맨밑에 2줄
+```bash
+CONFLICT (content): Merge conflict in track001.md
+Automatic merge failed; fix conflicts and then commit the result.
+```
 4. 해결방법
+```bash
+1. 오류파일 수정하고 
+2. 다시 시도
+git  add  track001.md
+git commit -m "오류해결.  track001.md"
+git pull origin master 
+git push origin master
+```
