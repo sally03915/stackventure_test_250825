@@ -86,6 +86,7 @@ fatal: unable to access 'https://github.com/newaccount/projectname.git/': The re
 - 사용자 이름: `sally03915`
 - 암호: GitHub 로그인 시 사용하는 비밀번호
 
+<<<<<<< HEAD
 
 ---
 
@@ -118,4 +119,14 @@ Aborting
 Merge with strategy ort failed.
 PS C:\◎stackventure_250825◎\test-local>
 ```
+=======
+---
+
+## 🧪 실습 5: pull & push
+### 🛠️  pull
+```bash
+git pull origin master
+```
+
+>>>>>>> 10d4b45faf7f8dc50e8864845bc398e4b1da1c1a
 
