@@ -1,13 +1,15 @@
-
+---
 [ 실습1 ]    
 1.  회원가입(https://github.com/) 후 로그인
 2.  원격저장소 만들기  
 https://github.com/sally03915/git0.git
 
+---
 [ 실습2 ]   
 1.  https://git-scm.com/
 2.  설치
 
+---
 [ 실습3 ]   git
 1.  유저이름
 $ git  config  --global   user.name "sally An"
@@ -44,7 +46,7 @@ init.defaultbranch=master
 user.name=sally An
 user.email=sally03915@gmail.com
 
-
+---
 [ 실습4 ]   폴더만들고  visual studio 로 열기
 1.  폴더만들기 - mkdir   git0
 C:\Users\Administrator.User -2023CNVKK>cd C:\
@@ -104,7 +106,7 @@ PS C:\git0>
 
 5. github에가서 원격저장소에 올라간것 확인
 
-
+---
 ※ error 시
  remote: Permission to newaccount/projectname.git denied to oldaccount.
 fatal: unable to access 'https://github.com/newaccount/projectname.git/': The requested URL returned error: 403 
