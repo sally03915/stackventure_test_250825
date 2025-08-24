@@ -1,7 +1,7 @@
 ---
 [ 실습1 ]    
-1.  회원가입(https://github.com/) 후 로그인
-2.  원격저장소 만들기  
+- 1.  회원가입(https://github.com/) 후 로그인
+- 2.  원격저장소 만들기  
 https://github.com/sally03915/git0.git
 
 ---
@@ -20,7 +20,7 @@ $ git  config  --global   user.email  "sally03915@gmail.com"
 3.  github  설정확인
 $  git  config --list
 
->>>>>> CODE
+```bash
 Administrator@User -2023CNVKK MINGW64 ~
 $ git  config  --global   user.name "sally An"
 
@@ -45,6 +45,7 @@ credential.https://dev.azure.com.usehttppath=true
 init.defaultbranch=master
 user.name=sally An
 user.email=sally03915@gmail.com
+```
 
 ---
 [ 실습4 ]   폴더만들고  visual studio 로 열기
@@ -63,6 +64,7 @@ C:\git0>code .
 3. basic001.html   파일만들기
 
 4. git
+```bash
 PS C:\git0> git init               설명)   저장소 초기화
 Initialized empty Git repository in C:/git0/.git/
 PS C:\git0>   ※ backup 하고
@@ -102,15 +104,16 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/sally03915/git0.git
  * [new branch]      master -> master
 PS C:\git0>
-
+```
 
 5. github에가서 원격저장소에 올라간것 확인
 
 ---
 ※ error 시
+```bash
  remote: Permission to newaccount/projectname.git denied to oldaccount.
 fatal: unable to access 'https://github.com/newaccount/projectname.git/': The requested URL returned error: 403 
-
+```
 1. 제어판
 다음 Windows 자격 증명에 들어가면
 일반 자격 증명 탭에 기존에 사용하던 토큰들이 있을 것입니다.
