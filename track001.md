@@ -86,8 +86,6 @@ fatal: unable to access 'https://github.com/newaccount/projectname.git/': The re
 - 사용자 이름: `sally03915`
 - 암호: GitHub 로그인 시 사용하는 비밀번호
 
-<<<<<<< HEAD
-
 ---
 
 ## 🧪 실습 5: pull & push  [chapter002]
@@ -102,31 +100,4 @@ git pull origin master
 ```
 
 3. 실행 시 충돌 발생
-```bash
-PS C:\◎stackventure_250825◎\test-local> git pull  origin master
-remote: Enumerating objects: 5, done.
-remote: Counting objects: 100% (5/5), done.
-remote: Compressing objects: 100% (2/2), done.
-remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
-Unpacking objects: 100% (3/3), 976 bytes | 19.00 KiB/s, done.
-From https://github.com/sally03915/stackventure_test_250825
- * branch            master     -> FETCH_HEAD
-   d14869c..10d4b45  master     -> origin/master
-error: Your local changes to the following files would be overwritten by merge:
-        track001.md
-Please commit your changes or stash them before you merge.
-Aborting
-Merge with strategy ort failed.
-PS C:\◎stackventure_250825◎\test-local>
-```
-=======
----
-
-## 🧪 실습 5: pull & push
-### 🛠️  pull
-```bash
-git pull origin master
-```
-
->>>>>>> 10d4b45faf7f8dc50e8864845bc398e4b1da1c1a
 
