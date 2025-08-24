@@ -113,3 +113,31 @@ git commit -m "오류해결.  track001.md"
 git pull origin master 
 git push origin master
 ```
+
+---
+## 🧪 실습 6: pull & push  [chapter003]
+1. 마크다운기본 -  `chapter003_markdown.md`
+2. 마크다운실습 -  README.md 
+
+---
+## 🧪 실습 7: 협업 [chapter004]
+1. https://github.com/explore
+2. fork 누르기
+```bash
+https://github.com/home-assistant/frontend
+```
+3. 내 컴퓨터로 가져오기 (Clone)
+```
+git clone https://github.com/내아이디/복사된저장소.git
+cd 복사된저장소
+```
+
+```
+git clone https://github.com/sally03915/frontend-assistant
+cd  frontend-assistant
+```
+4. 새 작업 공간 만들기 (Branch)
+```bash
+PS C:\◎stackventure_250825◎\test-local\frontend-assistant> git checkout -b feature-sally03915 
+```
+- 원본은 그대로 두고, 새 그림을 그릴 공간을 만든 거예요
