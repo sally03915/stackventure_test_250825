@@ -99,5 +99,5 @@ git commit -m "chapter2-1.  track001.md"
 git pull origin master 
 ```
 
-3. 실행 시 충돌 발생
-
+3. 실행 시 충돌 발생 
+4. 해결방법
